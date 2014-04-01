@@ -61,7 +61,6 @@ typedef struct s_gridseed_info {
 	int		per_chip_stats;
 } GRIDSEED_INFO;
 
-<<<<<<< HEAD
 /* commands to set core frequency */
 static const int opt_frequency[] = {
         700,  706,  713,  719,  725,  731,  738,  744,
@@ -152,8 +151,6 @@ static const char *bin_frequency[] = {
         "\x55\xaa\xef\x00\x05\x00\xe0\x86"
 };
 
-=======
->>>>>>> master
 static const char *str_reset[] = {
 	"55AAC000808080800000000001000000", // Chip reset
 	NULL
